@@ -3,7 +3,7 @@ altura = float(input('Digite sua altura: '))
 
 imc = peso / altura ** 2
 
-print('O seu IMC é :{}'.format(imc))
+print('O seu IMC é :{:.2f}'.format(imc))
 
 if imc < 18.5:
     print('Você está com magreza')
